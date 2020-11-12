@@ -1,0 +1,59 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+  .header{
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+.header h1{
+    font-size: 40px;
+}
+.navbar{
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.87);
+
+}
+.navbar a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+
+}
+.navbar a.right{
+  float: right;
+}
+.navbar a:hover{
+  background-color: bisque;
+  color: black;
+}
+.photo{
+  text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.video{
+  text-align: center;
+}
+.date{
+  text-align: right;
+}
